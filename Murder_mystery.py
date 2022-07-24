@@ -53,7 +53,7 @@ while play == 'y':
         else:
             print("Not among the weapons in sight, pls choose from the options!")
     
-    # Calling the assigning the functions    
+    # Calling and assigning the functions    
     room = computer_pick()
     suspect = names()
     outcome = solve_murder_case(computer_pick, user_input, suspect)
